@@ -1,5 +1,5 @@
 // live2d_path 参数建议使用绝对路径
-const live2d_path = "https://fastly.jsdelivr.net/gh/58Q83/live2d-4-Blogt@latest/";
+const live2d_path = "https://fastly.jsdelivr.net/gh/58Q83/live2d-4-Blog@latest/";
 //const live2d_path = "/live2d-widget/";
 
 // 封装异步加载资源的方法
@@ -34,7 +34,7 @@ if (screen.width >= 768) {
 		// 配置选项的具体用法见 README.md
 		initWidget({
 			waifuPath: live2d_path + "waifu-tips.json",
-			apiPath: "http://139.9.116.219:81/live2d_api/",
+			apiPath: "https://139.9.116.219/live2d_api/",
 			//cdnPath: "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/",
 			tools: ["hitokoto", "asteroids", "switch-model", "switch-texture", "photo", "info", "quit"]
 		});
